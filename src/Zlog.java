@@ -29,7 +29,7 @@ public class Zlog {
                     } else if (i > 0) {
                         sb.append(", ");
                     }
-                    sb.append("null");
+                    sb.append("[null value]");
                 } else if (log[i] instanceof Exception) {
                     sb.append('\n');
                     nextline = true;
